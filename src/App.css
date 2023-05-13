@@ -19,6 +19,7 @@ p {
 .name {
   color: #ffffff;
   font-family: "Inter";
+  src: url(./assets/Inter-Regular.ttf);
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -28,6 +29,7 @@ p {
 .date {
   color: #ffffff;
   font-family: "Inter";
+  src: url(./assets/Inter-Regular.ttf);
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -57,9 +59,10 @@ p {
 
 .info-paragraph {
   font-family: "Inter";
+  src: url(./assets/Inter-Regular.ttf);
   font-style: normal;
   font-weight: 400;
-  font-size: 2.5vh;
+  font-size: 22px;
   line-height: 29px;
   width: 27vw;
   min-width: 300px;
@@ -69,7 +72,7 @@ p {
 .info-title {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 36px;
   line-height: 44px;
 
@@ -300,14 +303,8 @@ a span::before {
     display: inline-block;
   }
 
-  .info-paragraph {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #ffffff;
-  }
-
-  .info-title {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #ffffff;
+  .profile {
+    opacity: 80%;
   }
 
   a span {
@@ -319,8 +316,22 @@ a span::before {
   }
 
   .all-projects-container {
-    scale: 65%;
-    margin-top: -400px;
+  }
+
+  .p-img {
+    width: 100%;
+  }
+
+  .p-info {
+    font-size: 15px;
+  }
+
+  .p-title {
+    font-size: 21px;
+  }
+
+  .portfolio-title {
+    font-size: 36px;
   }
 
   .socials {
@@ -330,5 +341,16 @@ a span::before {
     display: flex;
     justify-content: center;
     gap: 40px;
+  }
+
+  .info-paragraph {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    width: 100%;
+    min-width: 300px;
+    color: #ffffff;
   }
 }
