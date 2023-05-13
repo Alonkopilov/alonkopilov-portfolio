@@ -2,6 +2,11 @@ p {
   margin: 13px 0;
 }
 
+@font-face {
+  font-family: Inter;
+  src: url(./assets/Inter-Regular.ttf);
+}
+
 .navbar {
   position: fixed;
   z-index: 999;
@@ -18,8 +23,7 @@ p {
 
 .name {
   color: #ffffff;
-  font-family: "Inter";
-  src: url(./assets/Inter-Regular.ttf);
+  font-family: Inter;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -28,8 +32,8 @@ p {
 
 .date {
   color: #ffffff;
-  font-family: "Inter";
-  src: url(./assets/Inter-Regular.ttf);
+  font-family: Inter;
+
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -47,6 +51,7 @@ p {
   left: 0px;
   z-index: -1;
   overflow: hidden;
+  min-height: 880px;
 }
 
 .info {
@@ -58,8 +63,7 @@ p {
 }
 
 .info-paragraph {
-  font-family: "Inter";
-  src: url(./assets/Inter-Regular.ttf);
+  font-family: Inter;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -70,7 +74,7 @@ p {
 }
 
 .info-title {
-  font-family: "Inter";
+  font-family: Inter;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -81,8 +85,7 @@ p {
 
 .profile {
   position: absolute;
-  width: 489px;
-  height: 850px;
+  width: 50vh;
 
   left: 50%;
   top: 12.5%;
@@ -105,13 +108,13 @@ p {
 }
 
 .portfolio {
-  margin-top: 100vh;
+  margin-top: max(100vh, 880px);
 }
 
 .portfolio-title {
   padding-top: 30px;
   text-align: center;
-  font-family: "Inter";
+  font-family: Inter;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -121,7 +124,7 @@ p {
 .portfolio-para {
   padding-bottom: 30px;
   text-align: center;
-  font-family: "Inter";
+  font-family: Inter;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -139,7 +142,7 @@ footer {
 }
 
 .footer-title {
-  font-family: "Inter";
+  font-family: Inter;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -225,7 +228,7 @@ a span::before {
   width: 0;
   min-width: 100%;
   text-align: center;
-  font-family: "Inter";
+  font-family: Inter;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -238,7 +241,7 @@ a span::before {
 
 .middle {
   text-align: center;
-  font-family: "Inter";
+  font-family: Inter;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -257,7 +260,7 @@ a span::before {
   width: 0;
   min-width: 90%;
   margin: 0 auto;
-  font-family: "Inter";
+  font-family: Inter;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -276,7 +279,7 @@ a span::before {
 }
 
 .p-link {
-  font-family: "Inter";
+  font-family: Inter;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -344,7 +347,7 @@ a span::before {
   }
 
   .info-paragraph {
-    font-family: "Inter";
+    font-family: Inter;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -352,5 +355,9 @@ a span::before {
     width: 100%;
     min-width: 300px;
     color: #ffffff;
+  }
+
+  .bg-container {
+    min-height: 770px;
   }
 }
