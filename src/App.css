@@ -281,3 +281,54 @@ a span::before {
 }
 
 /******************/
+
+@media (max-width: 675px) {
+  .profile {
+    position: absolute;
+    width: 489px;
+    height: 850px;
+    left: 0%;
+    top: 12.5%;
+    z-index: -1;
+  }
+
+  .info {
+    margin-left: 5%;
+    margin-top: 306px;
+    height: 280px;
+    max-height: 380px;
+    display: inline-block;
+  }
+
+  .info-paragraph {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+  }
+
+  .info-title {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+  }
+
+  a span {
+    visibility: hidden;
+  }
+
+  .navbar {
+    gap: 17%;
+  }
+
+  .all-projects-container {
+    scale: 65%;
+    margin-top: -400px;
+  }
+
+  .socials {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+}
