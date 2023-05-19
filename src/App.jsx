@@ -1,5 +1,6 @@
 import "./App.css";
 import Project from "./components/Project";
+import FadeIn from "react-fade-in";
 
 function getTodayDate() {
   return new Date().toISOString().split("T")[0];
@@ -20,37 +21,40 @@ function App() {
       </header>
       <div className="bg-container">
         <div>
-          <div className="info">
-            <h1 className="info-title">Hi, My name is Alon</h1>
-            <p className="info-paragraph">
-              I’m a software developer living in Israel.{" "}
-            </p>
-            <p className="info-paragraph">
-              I Graduated from the National “Magshimim” 3-year Cyber Program,
-              coded many personal projects at home, and have work experience as
-              a DevOps Engineer & QA in a startup company for over 1.5 years.
-            </p>
-            <p className="info-paragraph">
-              Studied 10-point Computer Science at school.
-            </p>
-          </div>
-          <div className="socials">
-            <a href="https://t.me/alonkopilov">
-              <img src="src/assets/telegram.svg"></img>
-            </a>
-            <a href="https://github.com/Alonkopilov">
-              <img src="src/assets/github.svg"></img>
-            </a>
-            <a href="https://www.instagram.com/alonkopilov_/">
-              <img src="src/assets/instagram.svg"></img>
-            </a>
-            <a href="mailto:alonkop12@gmail.com">
-              <img src="src/assets/google.svg"></img>
-            </a>
-            <a href="https://www.behance.net/Low_Poly_alonkopilov">
-              <img src="src/assets/behance.svg"></img>
-            </a>
-          </div>
+          <FadeIn>
+            <div className="info">
+              <h1 className="info-title">Hi, My name is Alon</h1>
+              <p className="info-paragraph">
+                I’m a software developer living in Israel.{" "}
+              </p>
+              <p className="info-paragraph">
+                I Graduated from the National “Magshimim” 3-year Cyber Program,
+                coded many personal projects at home, and have work experience
+                as a DevOps Engineer & QA in a startup company for over 1.5
+                years.
+              </p>
+              <p className="info-paragraph">
+                Studied 10-point Computer Science at school.
+              </p>
+            </div>
+            <div className="socials">
+              <a href="https://t.me/alonkopilov">
+                <img src="src/assets/telegram.svg"></img>
+              </a>
+              <a href="https://github.com/Alonkopilov">
+                <img src="src/assets/github.svg"></img>
+              </a>
+              <a href="https://www.instagram.com/alonkopilov_/">
+                <img src="src/assets/instagram.svg"></img>
+              </a>
+              <a href="mailto:alonkop12@gmail.com">
+                <img src="src/assets/google.svg"></img>
+              </a>
+              <a href="https://www.behance.net/Low_Poly_alonkopilov">
+                <img src="src/assets/behance.svg"></img>
+              </a>
+            </div>
+          </FadeIn>
           <div>
             <img src="src/assets/Profile.png" className="profile"></img>
           </div>
@@ -62,6 +66,7 @@ function App() {
           </a>
         </div>
       </div>
+
       <div id="portfolio" className="portfolio">
         <h1 className="portfolio-title">Personal Projects...</h1>
         <p className="portfolio-para">
