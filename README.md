@@ -4,7 +4,9 @@
 
 My portfolio website built from scratch.
 
-Coded using React
+## Live Demo
+
+Check out https://alonkopilov.github.io/alonkopilov-portfolio/
 
 ## Author
 
