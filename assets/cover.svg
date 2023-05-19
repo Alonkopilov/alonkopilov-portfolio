@@ -398,7 +398,7 @@
       <stop offset=".85" stop-color="#fff"/>
       <stop offset="1" stop-color="#fff"/>
     </linearGradient>
-    <image id="image" width="2250" height="4000" xlink:href="profile.png"/>
+    <image id="image" width="2250" height="4000" xlink:href="https://raw.githubusercontent.com/Alonkopilov/alonkopilov-portfolio/master/assets/profile.png"/>
   </defs>
   <g id="background">
     <rect class="cls-39" x="0" width="1400" height="1000"/>
