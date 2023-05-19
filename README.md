@@ -1,4 +1,4 @@
-![Cover Image](./assets/cover.svg?raw=true)
+![Cover Image](./assets/cover.png?raw=true)
 
 # A Clean and Minimalistic Coding Portfolio Website
 
