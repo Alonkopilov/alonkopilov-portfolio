@@ -109,6 +109,7 @@ p {
   gap: 25px;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .portfolio {
@@ -320,9 +321,6 @@ a span::before {
 
   .navbar {
     gap: 17%;
-  }
-
-  .all-projects-container {
   }
 
   .p-img {

@@ -25,16 +25,15 @@ function App() {
             <div className="info">
               <h1 className="info-title">Hi, My name is Alon</h1>
               <p className="info-paragraph">
-                I’m a software developer living in Israel.{" "}
+                I am a software developer from Israel with a strong foundation
+                in computer science and software development.{" "}
               </p>
               <p className="info-paragraph">
-                I Graduated from the National “Magshimim” 3-year Cyber Program,
-                coded many personal projects at home, and have work experience
-                as a DevOps Engineer & QA in a startup company for over 1.5
-                years.
-              </p>
-              <p className="info-paragraph">
-                Studied 10-point Computer Science at school.
+                With a background in the National 'Magshimim' 3-year Cyber
+                Program and the study of 10-point Computer Science in school, I
+                have worked on numerous personal projects and gained over 1.5
+                years of professional experience as a DevOps Engineer and QA in
+                a startup environment.
               </p>
             </div>
             <div className="socials">
@@ -128,6 +127,25 @@ function App() {
               </p>
             }
             link="https://github.com/Alonkopilov/who-has-my-email"
+          ></Project>
+          <Project
+            cover="src/assets/project-findmesongs.png"
+            title="FindMeSongs - Find Simillar Songs"
+            info={
+              <p>
+                A simple song finder that takes a song as input, and finds the
+                top simillar songs based on vocal properties from a Spotify
+                dataset.
+                <br />
+                <br /> The website is implemented using the Svelte framework in
+                the frontend, and python in the backend for the usage of machine
+                learning libraries. The components communicate with FastAPI.
+                <br />
+                <br /> The front and back ends are deployed on seperate Docker
+                containers that can be deployed and comunicate easily.
+              </p>
+            }
+            link="https://github.com/Alonkopilov/FindMeSongs"
           ></Project>
         </div>
       </div>
